@@ -21,7 +21,7 @@ body {
 .formLogin {
     display: flex;
     flex-direction: column;
-    background: rgba(248, 247, 247, 0.89)  ;
+    background: rgba(255, 255, 255, 0.1)  ;
     border-radius: 10px;
     padding: 25px;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
@@ -38,12 +38,13 @@ body {
     margin: 0;
     font-weight: 500;
     font-size: 2.3em;
+    color: white;
 }
 
 .formLogin p {
     display: inline-block;
     font-size: 14px;
-    color: #080101;
+    color: white;
     margin-bottom: 25px;
 }
 
@@ -66,13 +67,14 @@ body {
 .formLogin label {
     font-size: 14px;
     font-weight: 600;
+    color: white;
 }
 
 .formLogin a {
     display: inline-block;
     margin-bottom: 20px;
     font-size: 13px;
-    color: #555;
+    color: #c0c0c0;
     transition: all linear 160ms;
 }
 
